@@ -1,0 +1,224 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Roboto";
+	}
+.wrapper {
+	background: url('../img/52.jpeg') 0 0 / cover no-repeat;
+ 	min-height: 100%;
+	overflow: hidden;
+	padding: 10px;
+	margin: 0px 0px 20px 0px;
+} 
+/* ------------------------------ */
+.blokone {
+	margin: 0px 0px 20px 0px;
+	padding: 15px;
+	background-color: rgb(216, 112, 147)
+}
+
+.bloktwo {
+	margin: 0px 0px 20px 0px;
+	background: url("../img/car_shopping_24x.png");
+}
+.texttwo {
+		font-size: 35px;
+}
+.blokthree {
+	margin: 0px 0px 20px 0px;
+	padding: 15px;
+	background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(116,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.textthree {
+	color: wheat
+}
+
+.blokfour {
+	margin: 0px 0px 20px 0px;
+	padding: 15px;
+	background: url('../img/car_tires_24x.png') no-repeat;
+}
+.textfour {
+	font-size: 30px;
+}
+.blokfive {
+	background: url('../img/empty-illuminated-podium-realistic_1441-3744.jpg') 100% 100% no-repeat;
+	margin: 0px 0px 20px 0px;
+}
+.textfive {
+	font-size: 23px;
+	color: rgb(106, 158, 28);
+}
+.bloksix {
+	margin: 0px 0px 20px 0px;
+	padding: 20px;
+	background: rgb(92, 145, 131) url('../img/yH7iR.png') 20% 60% / 200px  no-repeat;
+}
+.textsix {
+font-size: 20px;
+}
+.blokseven {
+	margin: 0px 0px 20px 0px;
+	padding: 20px;
+	background:rgba(0,212,255,1) url('../img/empty-illuminated-podium-realistic_1441-3744.jpg') 50% / cover no-repeat fixed;
+}
+.textseven {
+	color: rgb(255, 245, 238);
+}
+.blokeight {
+	margin: 0px 0px 40px 0px;
+	padding: 10px;
+	background: url('../img/car_shopping_24x.png') 80% 40% no-repeat, url('../img/car_tires_24x.png') 20% 40% no-repeat,  rgba(116,9,121,1) url('../img/yH7iR.png') 50% / cover no-repeat;  
+}
+.texteight {
+	font-size: 25px;
+	color: rgb(255, 245, 238);
+}
+
+.bloknane {
+	background: rgb(157, 228, 212) url('../img/empty-illuminated-podium-realistic_1441-3744.jpg') 50% / cover no-repeat local;
+	margin: 40px;
+	max-width: 350px;
+	max-height: 350px;
+	display: inline-block;
+	overflow: scroll;
+}
+.textnane {
+	padding: 15px 10px 10px	10px;
+		color: rgb(255, 245, 238);
+	}
+
+	.blokten {
+		background: rgb(221, 250, 115) url('../img/yH7iR.png') 50% / cover no-repeat fixed;
+		margin: 40px;
+		max-width: 350px;
+		max-height: 350px;
+		display: inline-block;
+		overflow: scroll;
+	}
+	.textten {
+		padding: 15px 10px 10px	10px;
+		color: rgb(255, 245, 238);
+		}
+		
+	 .listtwos {
+	 padding: 0px 30px 0px 40px;
+	} 
+.listtwo{
+	background: url('../img/car_tires_24x.png')100% 100% / 25px no-repeat;
+	
+	}
+.listone{
+	background: url('../img/car_shopping_24x.png') 100% 100% / 25px no-repeat;
+	padding: 0px 30px 0px 40px;
+
+	}
+ ul {
+	margin: 20px 0px;
+}
+ul li {
+	margin: 0px 0px 15px 0px;
+	font-size: 15px;
+	min-height: 25px;
+	padding: 0px 40px 0px 40px;	
+	text-align: right;
+}
+/* 
+!Знаю можно было реализовать через Ul Li, но хотелось эксперементов */
+
+.carone {
+	background: #CDCDCD;
+	margin: 0px 0px 30px 0px;
+}
+.carones {
+	max-width: 237px;
+	max-height: 199px;
+	background: #F5F5F5;
+	margin: 0px auto;
+	}
+.cartitle {
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0.15px;
+color: #4B4B4B;
+padding: 0px 0px 28px 0px;
+}
+.imgone {
+	width: 16px;
+	height: 16px;
+	 display: inline-block;
+	 vertical-align: top;
+	 margin: 0px 0px 15px 0px;
+}
+.cartext {
+	padding: 0px 0px 15px 0px;
+	display: inline-block;
+	max-width: 200px;
+	max-height: 40px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin: 0px 0px 7px 0px;
+}
+.cartwo {
+	height: 800px;
+	width: 1334px;
+	margin: 0px 0px 70px 0px;
+}
+.imgcartwo {
+	background: url('../img/Button.png') 190px 440px no-repeat, url('../img/5.png') 0 0 /cover no-repeat;
+}
+.textcartwo {
+padding: 280px 545px 440px 209px;
+font-weight: 900;
+font-size: 56px;
+line-height: 56px;
+color: #FFFFFF;
+}
+
+
